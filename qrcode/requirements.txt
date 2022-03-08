@@ -2,6 +2,6 @@ streamlit
 numpy
 opencv
 os
-time cv2
+time
 qrcode
 pillow
