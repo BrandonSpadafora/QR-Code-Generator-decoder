@@ -62,6 +62,9 @@ def main():
         image_file = st.file_uploader("Upload Image", type=['jpg','png','jpeg'])
 
         if image_file is not None:
+            # This is just a simpler way to allow people to upload files
+            #Method 1 and two both do pretty much the same thing
+            
             # Method 1 : Display Image
             # img = load_image(image_file)
             # st.image(img)
