@@ -5,13 +5,13 @@ This is a QR code generator and decoder. So you can submit text and use it to cr
 or you can upload a qr code and have it decoded.
 
 ## imports used
-import streamlit as st
-import numpy as np
-import os
-import time 
-import cv2
-import qrcode
-from PIL import Image
+* import streamlit as st
+* import numpy as np
+* import os
+* import time 
+* import cv2
+* import qrcode
+* from PIL import Image
 
 ## acknowledgements
 
