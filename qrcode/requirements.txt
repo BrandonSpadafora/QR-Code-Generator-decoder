@@ -1,7 +1,4 @@
-streamlit
-numpy
-opencv-python
-os
-time
-qrcode
-pillow
+streamlit==1.5.1
+numpy==1.19.0
+opencv-python==4.5.4.60
+Pillow==9.0.1
