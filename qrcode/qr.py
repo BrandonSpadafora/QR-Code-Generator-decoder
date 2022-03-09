@@ -73,7 +73,7 @@ def main():
             #file_bytes = np.asarray(bytearray(image_file.read()), dtype=np.uint8)
             #opencv_image = cv2.imdecode(file_bytes,1)
 
-           c1,c2 = st.columns(2)
+             c1,c2 = st.columns(2)
             with c1:
                 st.image(opencv_image)
 
