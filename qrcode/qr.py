@@ -73,17 +73,17 @@ def main():
             #file_bytes = np.asarray(bytearray(image_file.read()), dtype=np.uint8)
             #opencv_image = cv2.imdecode(file_bytes,1)
 
-            #c1,c2 = st.columns(2)
-            #with c1:
-                #st.image(opencv_image)
+            c1,c2 = st.columns(2)
+            with c1:
+                st.image(opencv_image)
 
-            #with c2:
-                #st.info("Decoded QR code")
-                #det = cv2.QRCodeDetector()
-                #retval, points, straight_qrcode = det.detectAndDecode(opencv_image)
+            with c2:
+                st.info("Decoded QR code")
+                det = cv2.QRCodeDetector()
+                retval, points, straight_qrcode = det.detectAndDecode(opencv_image)
 
-                # retval is for the text
-                #st.write(retval)
+                retval is for the text
+                st.write(retval)
 
     
     else:
