@@ -46,7 +46,7 @@ def main():
 
                 # Filename
                 img_filename = 'generated_image_{}.png'.format(timestr)
-                path_for_images = os.path.join("QR-Code-Generator-decoder/qrcode/image_folder", img_filename)
+                path_for_images = os.path.join("qrcode/image_folder", img_filename)
                 img.save(path_for_images)
 
                 final_img = load_image(path_for_images)
